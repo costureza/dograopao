@@ -1,1 +1,4 @@
-@import url('./geral.css');
+@import url('./utilidades/geral.css');
+@import url('./utilidades/cores.css');
+@import url('./utilidades/tipografia.css');
+@import url('./Global/header.css');

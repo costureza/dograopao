@@ -1,0 +1,43 @@
+:root{
+  --p1: #78350F;
+  --p2: #92400E;
+  --p3: #B45309;
+  --p4: #D97706;
+  --p5: #F59E0B;
+  --p6: #FBBF24;
+  --p7: #FCD34D;
+  --p8: #FDE68A;
+  --p9: #FEF3C7;
+  --p10: #FFFBEB;
+}
+
+.p1{
+  color: var(--p1);
+}
+.p2{
+  color: var(--p2);
+}
+.p3{
+  color: var(--p3);
+}
+.p4{
+  color: var(--p4);
+}
+.p5{
+  color: var(--p5);
+}
+.p6{
+  color: var(--p6);
+}
+.p7{
+  color: var(--p7);
+}
+.p8{
+  color: var(--p8);
+}
+.p9{
+  color: var(--p9);
+}
+.p10{
+  color: var(--p10);
+}

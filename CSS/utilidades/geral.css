@@ -10,3 +10,12 @@
 .tittle{
   font-family: "Fraunces", serif;
 }
+
+.container{
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
