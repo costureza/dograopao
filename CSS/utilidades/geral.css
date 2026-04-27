@@ -4,6 +4,7 @@
   list-style: none;
   text-decoration: none;
   outline: none;
+  border: none;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }

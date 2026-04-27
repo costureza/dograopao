@@ -2,3 +2,5 @@
 @import url('./utilidades/cores.css');
 @import url('./utilidades/tipografia.css');
 @import url('./Global/header.css');
+@import url('./Global/footer.css');
+@import url('./receitas/cadastro.css');

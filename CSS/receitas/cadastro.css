@@ -1,0 +1,40 @@
+.addreceita{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.addreceita form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-direction: column;
+}
+.titleform{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.input-form-add label{
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--p1);
+}
+.input-form-add input{
+  background: var(--p9);
+  border-radius: .5rem;
+  padding: 1rem;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--p2);
+}
+
+.itemform{
+  display: flex;
+  flex-direction: row;
+}
