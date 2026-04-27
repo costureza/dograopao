@@ -14,7 +14,18 @@
 .logo img{
   width: 10rem;
 }
-.header a{
+.header-menu a{
   text-transform: uppercase;
   color: var(--p10);
+}
+
+.header-menu a:hover{
+  color: var(--p7);
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
