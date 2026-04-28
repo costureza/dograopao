@@ -1,6 +1,21 @@
 .footer-bg{
-  background: var(--p2);
+  background: var(--p1);
 }
-.footer{
-  background: var(--p2);
+.footer {
+  background: var(--p1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--p10);
+  gap: .5rem;
+  font-size: 1.2rem;
+}
+.wave-wrapper {
+  line-height: 0; 
+  overflow: hidden;
+}
+
+.wave-wrapper svg {
+  display: block;
+  width: 100%;
 }

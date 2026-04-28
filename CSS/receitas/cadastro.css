@@ -7,22 +7,25 @@
 
 .addreceita form{
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   gap: 1rem;
   flex-direction: column;
+  margin-top: 1.25rem;
 }
 .titleform{
   display: flex;
-  align-items: center;
   justify-content: space-between;
   gap: 1rem;
+
 }
 .input-form-add label{
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 1.5rem;
   color: var(--p1);
+  display: flex;
+  margin-bottom: .5rem;
 }
 .input-form-add input{
   background: var(--p9);
@@ -36,5 +39,15 @@
 
 .itemform{
   display: flex;
-  flex-direction: row;
+  gap: 1rem;
+}
+.btn{
+  display: inline-block;
+  padding: 1rem;
+  background: linear-gradient(#FBBF24, var(--p5));
+  border-radius: .5rem;
+  font-weight: bold;
+  color: var(--p1);
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
