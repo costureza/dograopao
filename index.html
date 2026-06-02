@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do Grão ao Pão</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+  rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+  <header className="header-bg" id="header">
+    <div className="header container">
+      <a href="./index.html">
+        <picture className="logo"><img src="../IMG/logo.svg" alt=""></picture>
+      </a>
+      <nav className="nav-links">
+        <ul className="header-menu font-1-m">
+          <li><a href="./minhasreceitas.html">Minhas Receitas</a></li>
+          <li><a href="./addreceita.html">Adicionar Receitas</a></li>
+          <li><a href="./sobre.html">sobre nós</a></li>
+          <li><a href="./login.html"><i className="fa-regular fa-circle-user"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section className="addreceita">
+      <form action="" className="container">
+        <div className="titleform">
+          <div className="input-form-add">
+            <label for="produto">Produto</label>
+            <input type="text" name="produto" id="produto">
+          </div>
+          <div className="input-form-add">
+            <label for="rendimento" className="">Rendimento</label>
+            <input type="number" name="rendimento" id="rendimento">
+          </div>
+        </div>
+        <div className="itemform">
+          <div className="input-form-add">
+            <label for="ingredientes">Ingredientes</label>
+            <input type="text" name="ingredientes" id="ingredientes">
+          </div>
+          <div className="input-form-add">
+            <label for="porcentagem">Porcentagem</label>
+            <input type="number" name="porcentagem" id="porcentagem">
+
+          </div>
+          <div className="input-form-add">
+            <label for="qnt">Quantidade na embalagem</label>
+            <input type="number" name="qnt" id="qnt">
+          </div>
+          <div className="input-form-add">
+            <label for="valoremb">Valor na embalagem</label>
+            <input type="number" name="valoremb" id="valoremb">
+          </div>
+        </div>
+
+        <button className="btn">Adicionar mais ingredientes</button>
+        <button className="btn" type="submit">Cadastrar</button>
+
+
+      </form>
+    </section>
+
+  </main>
+  <div className="wave-wrapper">
+    <svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+      <path d="M0,120
+      A75,75 0 0,1 150,120
+      A75,75 0 0,1 300,120
+      A75,75 0 0,1 450,120
+      A75,75 0 0,1 600,120
+      A75,75 0 0,1 750,120
+      A75,75 0 0,1 900,120
+      A75,75 0 0,1 1050,120
+      A75,75 0 0,1 1200,120
+      L1200,120 L0,120 Z" fill="#78350F" />
+    </svg>
+
+
+  </div>
+  <footer className="footer-bg">
+    <div className="footer container">
+      <p>Todos os direitos reservados</p>
+      <picture><img src="../IMG/costureza.svg" alt=""></picture>
+    </div>
+  </footer>
+  <script type="module" src="../JS/index.js"></script>
+</body>
+
+</html>

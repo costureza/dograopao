@@ -1,0 +1,31 @@
+.header-bg{
+  background: var(--p2);
+}
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+
+}
+.logo img{
+  width: 10rem;
+}
+.header-menu a{
+  text-transform: uppercase;
+  color: var(--p10);
+}
+
+.header-menu a:hover{
+  color: var(--p7);
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
